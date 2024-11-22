@@ -1,7 +1,4 @@
-*
+
 !composer*
 !.htaccess
 !.gitignore
-
-# Plugins
-!wp-content/plugins
