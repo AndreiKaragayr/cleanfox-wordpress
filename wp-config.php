@@ -130,6 +130,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 
-/** Sets up WordPress vars and included files. */
+/** Sets up WordPress vars and included fil	es. */
 require_once ABSPATH . 'wp-settings.php';
 define( 'GRAPHQL_DEBUG', true );
