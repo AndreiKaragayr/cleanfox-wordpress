@@ -56,7 +56,7 @@ https://www.youtube.com/watch?v=tJb5HjUuQzE
 
 #### 5 VS Code Eslint
 
-setting.json
+- setting.json
 
 ```
 {
@@ -94,3 +94,18 @@ GraphQL Code Generator
 #### 7 Deploy Vercel
 
 https://vercel.com/guides/wordpress-with-vercel
+
+#### 7 Wordpress
+
+- Appearance Menu.
+
+Adding the following to your theme's functions.php file:
+
+````function register_my_menus() {
+    register_nav_menus(array(
+        'primary' => __('Primary Menu'),
+        'footer'  => __('Footer Menu'),
+    ));
+}
+add_action('after_setup_theme', 'register_my_menus');```
+````
