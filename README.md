@@ -95,31 +95,32 @@ GraphQL Code Generator
 
 https://vercel.com/guides/wordpress-with-vercel
 
-#### 7 Wordpress
+#### 8 Wordpress
 
 - Appearance Menu.
 
 Adding the following to your theme's functions.php file:
 
-````function register_my_menus() {
+` function register_my_menus() {
     register_nav_menus(array(
         'primary' => __('Primary Menu'),
         'footer'  => __('Footer Menu'),
     ));
 }
 add_action('after_setup_theme', 'register_my_menus');```
-````
+ `
 
 - Check WordPress WPGraphQL Settings
   By default, the WPGraphQL plugin should allow introspection queries. However, if introspection is disabled, you might need to enable it.
 
-- Enable Introspection in WPGraphQL:
-- Access your WordPress admin dashboard.
-- Go to GraphQL Settings under GraphQL in the WordPress admin sidebar.
-- Look for the option to disable or enable introspection queries.
-- Enable introspection queries if it’s disabled.
+  > Enable Introspection in WPGraphQL:
+  > Access your WordPress admin dashboard.
+  > Go to GraphQL Settings under GraphQL in the WordPress admin sidebar.
+  > Look for the option to disable or enable introspection queries.
+  > **Enable introspection queries** if it’s disabled.
 
 If there’s no UI for this in the settings, you can also enable it via a filter in your theme’s functions.php file or a custom plugin.
 
 Add the following code to functions.php (inside your theme):
+
 `add_filter( 'graphql_enable_introspection', '__return_true' );`
