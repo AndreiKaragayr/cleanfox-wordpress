@@ -97,6 +97,7 @@ https://vercel.com/guides/wordpress-with-vercel
 
 <abbr title="Setting DNS ">Setting DNS Namecheap</abbr>
 [Namecheap](https://www.namecheap.com/support/knowledgebase/article.aspx/9837/46/how-to-connect-a-domain-to-a-server-or-hosting/#hostingwus)
+
 [Custom Domain Vercel](https://vercel.com/docs/projects/domains/add-a-domain)
 
 
