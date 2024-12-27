@@ -95,8 +95,8 @@ GraphQL Code Generator
 
 https://vercel.com/guides/wordpress-with-vercel
 
-<abbr title="Setting DNS Namecheap">HTML</abbr>
-[namecheap](https://www.namecheap.com/support/knowledgebase/article.aspx/9837/46/how-to-connect-a-domain-to-a-server-or-hosting/#hostingwus)
+<abbr title="Setting DNS Namecheap">Setting DNS Namecheap</abbr>
+[Namecheap](https://www.namecheap.com/support/knowledgebase/article.aspx/9837/46/how-to-connect-a-domain-to-a-server-or-hosting/#hostingwus)
 
 #### 8 Wordpress
 
