@@ -103,6 +103,8 @@ https://vercel.com/guides/wordpress-with-vercel
 
 #### 8 Wordpress
 
+[Template Wordpress](https://templatekit.jegtheme.com/cleanary/)
+
 - Appearance Menu.
 
 Adding the following to your theme's functions.php file:
